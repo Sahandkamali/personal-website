@@ -10,6 +10,7 @@ A modern, responsive personal website designed specifically for policy students.
 - **Interactive Navigation**: Smooth scrolling and active section highlighting
 - **Mobile-Friendly**: Hamburger menu for mobile devices
 - **Print-Ready**: CV can be printed directly from the browser
+- **Profile Picture**: Professional circular profile photo display
 
 ## Files Structure
 
@@ -18,12 +19,23 @@ personal-website/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styling
 ├── script.js           # JavaScript functionality
+├── profile-pic.jpg     # Your profile picture (add this file)
 └── README.md           # This file
 ```
 
 ## Customization Guide
 
-### 1. Personal Information
+### 1. Profile Picture
+To add your profile picture:
+1. Add your photo file to the project folder
+2. Name it `profile-pic.jpg` (or update the src in index.html)
+3. Recommended size: 300x300 pixels or larger
+4. The image will be automatically cropped to a circle and resized
+
+**Supported formats**: JPG, PNG, WebP
+**Fallback**: If no image is found, a user icon will be displayed
+
+### 2. Personal Information
 Update the following in `index.html`:
 
 - **Name**: Replace "Your Name" with your actual name
