@@ -143,6 +143,39 @@
             opacity: 0.8;
         }
 
+        /* Resume Download Button */
+        .resume-download {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .download-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-btn i {
+            font-size: 1.2rem;
+        }
+
         /* Content Sections */
         .content-section {
             padding: 3rem;
@@ -438,6 +471,12 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <span>Erfurt, Germany</span>
                         </div>
+                    </div>
+                    <div class="resume-download">
+                        <a href="Sahand_Clean_Resume (3).pdf" download class="download-btn">
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
                     </div>
                 </div>
             </div>
